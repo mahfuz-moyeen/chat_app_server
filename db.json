@@ -1,5 +1,56 @@
 {
-  "users": [],
-  "conversations": [],
-  "messages": []
+  "users": [
+    {
+      "email": "mzmoyeen@gmail.com",
+      "password": "$2a$10$Zo939Qd2TF9AJTQqwWW7l.4CXRr742uUsXOJ8wz1R/N1tlxzmTiXC",
+      "name": "moyeen",
+      "id": 1
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$pM/SNHzWPYmVcd4afX0KXOSrk61Z/fJexO5hzz3cWzGYRma.7WN4O",
+      "name": "test",
+      "id": 2
+    }
+  ],
+  "conversations": [
+    {
+      "participants": "test@gmail.com-mzmoyeen@gmail.com",
+      "users": [
+        {
+          "email": "test@gmail.com",
+          "name": "test",
+          "id": 2
+        },
+        {
+          "email": "mzmoyeen@gmail.com",
+          "password": "$2a$10$Zo939Qd2TF9AJTQqwWW7l.4CXRr742uUsXOJ8wz1R/N1tlxzmTiXC",
+          "name": "moyeen",
+          "id": 1
+        }
+      ],
+      "message": "hi\n",
+      "timestamp": 1663609928509,
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 1,
+      "sender": {
+        "email": "test@gmail.com",
+        "name": "test",
+        "id": 2
+      },
+      "receiver": {
+        "email": "mzmoyeen@gmail.com",
+        "password": "$2a$10$Zo939Qd2TF9AJTQqwWW7l.4CXRr742uUsXOJ8wz1R/N1tlxzmTiXC",
+        "name": "moyeen",
+        "id": 1
+      },
+      "message": "hi\n",
+      "timestamp": 1663609928509,
+      "id": 1
+    }
+  ]
 }
